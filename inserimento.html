@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inserimento dati</title>
+    </head>
+    <body>
+        <h2>Inserimento dei dai dati di un giocatore</h2>
+        <form method="post" action="inserimento.php">
+            Codice giocatore:
+            <input type="text" name="cod_gioc" required> <br>
+            Nome:
+            <input type="text" name="nome" required> <br>
+            Cognome:
+            <input type="text" name="cognome" required> <br>
+            Nazionalit&agrave;:
+            <input type="text" name="nazione" required> <br>
+            Stipendio:
+            <input type="number" name="stipendio" step="0.01" required> <br>
+            <input type="submit" name="invia" value="Invia">
+        </form>
+    </body>
+</html>
